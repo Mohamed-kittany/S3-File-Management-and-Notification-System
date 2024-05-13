@@ -1,0 +1,56 @@
+2024-05-13 14:59:06,411 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-05-13 14:59:09,383 - INFO - SNS Topic created with ARN: arn:aws:sns:us-west-2:992382484309:EmailSalesRepFromS3Bucket
+2024-05-13 14:59:14,102 - INFO - Bucket dct-sales-mohamed-kittany created in region us-west-2.
+2024-05-13 14:59:15,980 - INFO - Uploaded sr1_cust_01.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_01.csv.
+2024-05-13 14:59:16,707 - INFO - Uploaded sr1_cust_05.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_05.csv.
+2024-05-13 14:59:17,403 - INFO - Uploaded sr1_cust_07.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_07.csv.
+2024-05-13 14:59:18,103 - INFO - Uploaded sr1_cust_08.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_08.csv.
+2024-05-13 14:59:18,813 - INFO - Uploaded sr1_cust_09.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_09.csv.
+2024-05-13 14:59:19,508 - INFO - Uploaded sr2_cust_02.csv to S3 bucket dct-sales-mohamed-kittany with key sr2_cust_02.csv.
+2024-05-13 14:59:20,204 - INFO - Uploaded sr2_cust_06.csv to S3 bucket dct-sales-mohamed-kittany with key sr2_cust_06.csv.
+2024-05-13 14:59:20,902 - INFO - Uploaded sr3_cust_03.csv to S3 bucket dct-sales-mohamed-kittany with key sr3_cust_03.csv.
+2024-05-13 14:59:21,602 - INFO - Uploaded sr4_cust_04.csv to S3 bucket dct-sales-mohamed-kittany with key sr4_cust_04.csv.
+2024-05-13 14:59:22,299 - INFO - Uploaded sr5_cust_10.csv to S3 bucket dct-sales-mohamed-kittany with key sr5_cust_10.csv.
+2024-05-13 14:59:24,525 - INFO - Successfully moved sr1_cust_01.csv to dct-sales/sr1/sr1_cust_01.csv.
+2024-05-13 14:59:25,275 - INFO - Successfully moved sr1_cust_05.csv to dct-sales/sr1/sr1_cust_05.csv.
+2024-05-13 14:59:26,033 - INFO - Successfully moved sr1_cust_07.csv to dct-sales/sr1/sr1_cust_07.csv.
+2024-05-13 14:59:26,784 - INFO - Successfully moved sr1_cust_08.csv to dct-sales/sr1/sr1_cust_08.csv.
+2024-05-13 14:59:27,536 - INFO - Successfully moved sr1_cust_09.csv to dct-sales/sr1/sr1_cust_09.csv.
+2024-05-13 14:59:28,282 - INFO - Successfully moved sr2_cust_02.csv to dct-sales/sr2/sr2_cust_02.csv.
+2024-05-13 14:59:29,049 - INFO - Successfully moved sr2_cust_06.csv to dct-sales/sr2/sr2_cust_06.csv.
+2024-05-13 14:59:29,799 - INFO - Successfully moved sr3_cust_03.csv to dct-sales/sr3/sr3_cust_03.csv.
+2024-05-13 14:59:30,548 - INFO - Successfully moved sr4_cust_04.csv to dct-sales/sr4/sr4_cust_04.csv.
+2024-05-13 14:59:31,298 - INFO - Successfully moved sr5_cust_10.csv to dct-sales/sr5/sr5_cust_10.csv.
+2024-05-13 14:59:32,853 - INFO - SNS notification sent for SRsr1: Files moved for SRsr1: sr1_cust_01.csv, sr1_cust_05.csv, sr1_cust_07.csv, sr1_cust_08.csv, sr1_cust_09.csv
+2024-05-13 14:59:33,083 - INFO - SNS notification sent for SRsr2: Files moved for SRsr2: sr2_cust_02.csv, sr2_cust_06.csv
+2024-05-13 14:59:33,314 - INFO - SNS notification sent for SRsr3: Files moved for SRsr3: sr3_cust_03.csv
+2024-05-13 14:59:33,545 - INFO - SNS notification sent for SRsr4: Files moved for SRsr4: sr4_cust_04.csv
+2024-05-13 14:59:33,774 - INFO - SNS notification sent for SRsr5: Files moved for SRsr5: sr5_cust_10.csv
+2024-05-13 15:04:02,190 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-05-13 15:04:04,871 - INFO - SNS Topic already exists: arn:aws:sns:us-west-2:992382484309:EmailSalesRepFromS3Bucket
+2024-05-13 15:04:08,015 - INFO - Bucket dct-sales-mohamed-kittany already exists.
+2024-05-13 15:04:09,865 - INFO - Uploaded sr1_cust_11.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_11.csv.
+2024-05-13 15:04:10,564 - INFO - Uploaded sr1_cust_12.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_12.csv.
+2024-05-13 15:04:11,267 - INFO - Uploaded sr1_cust_13.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_13.csv.
+2024-05-13 15:04:11,973 - INFO - Uploaded sr1_cust_14.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_14.csv.
+2024-05-13 15:04:12,682 - INFO - Uploaded sr1_cust_15.csv to S3 bucket dct-sales-mohamed-kittany with key sr1_cust_15.csv.
+2024-05-13 15:04:13,390 - INFO - Uploaded sr2_cust_16.csv to S3 bucket dct-sales-mohamed-kittany with key sr2_cust_16.csv.
+2024-05-13 15:04:14,095 - INFO - Uploaded sr2_cust_17.csv to S3 bucket dct-sales-mohamed-kittany with key sr2_cust_17.csv.
+2024-05-13 15:04:14,796 - INFO - Uploaded sr3_cust_18.csv to S3 bucket dct-sales-mohamed-kittany with key sr3_cust_18.csv.
+2024-05-13 15:04:15,499 - INFO - Uploaded sr4_cust_19.csv to S3 bucket dct-sales-mohamed-kittany with key sr4_cust_19.csv.
+2024-05-13 15:04:16,198 - INFO - Uploaded sr5_cust_20.csv to S3 bucket dct-sales-mohamed-kittany with key sr5_cust_20.csv.
+2024-05-13 15:04:18,384 - INFO - Successfully moved sr1_cust_11.csv to dct-sales/sr1/sr1_cust_11.csv.
+2024-05-13 15:04:19,122 - INFO - Successfully moved sr1_cust_12.csv to dct-sales/sr1/sr1_cust_12.csv.
+2024-05-13 15:04:19,864 - INFO - Successfully moved sr1_cust_13.csv to dct-sales/sr1/sr1_cust_13.csv.
+2024-05-13 15:04:20,619 - INFO - Successfully moved sr1_cust_14.csv to dct-sales/sr1/sr1_cust_14.csv.
+2024-05-13 15:04:21,368 - INFO - Successfully moved sr1_cust_15.csv to dct-sales/sr1/sr1_cust_15.csv.
+2024-05-13 15:04:22,103 - INFO - Successfully moved sr2_cust_16.csv to dct-sales/sr2/sr2_cust_16.csv.
+2024-05-13 15:04:22,844 - INFO - Successfully moved sr2_cust_17.csv to dct-sales/sr2/sr2_cust_17.csv.
+2024-05-13 15:04:23,578 - INFO - Successfully moved sr3_cust_18.csv to dct-sales/sr3/sr3_cust_18.csv.
+2024-05-13 15:04:24,311 - INFO - Successfully moved sr4_cust_19.csv to dct-sales/sr4/sr4_cust_19.csv.
+2024-05-13 15:04:25,049 - INFO - Successfully moved sr5_cust_20.csv to dct-sales/sr5/sr5_cust_20.csv.
+2024-05-13 15:04:26,629 - INFO - SNS notification sent for SRsr1: Files moved for SRsr1: sr1_cust_11.csv, sr1_cust_12.csv, sr1_cust_13.csv, sr1_cust_14.csv, sr1_cust_15.csv
+2024-05-13 15:04:26,864 - INFO - SNS notification sent for SRsr2: Files moved for SRsr2: sr2_cust_16.csv, sr2_cust_17.csv
+2024-05-13 15:04:27,098 - INFO - SNS notification sent for SRsr3: Files moved for SRsr3: sr3_cust_18.csv
+2024-05-13 15:04:27,329 - INFO - SNS notification sent for SRsr4: Files moved for SRsr4: sr4_cust_19.csv
+2024-05-13 15:04:27,560 - INFO - SNS notification sent for SRsr5: Files moved for SRsr5: sr5_cust_20.csv
