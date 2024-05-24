@@ -8,6 +8,7 @@ This project automates the organization and management of files within an AWS S3
 - **Duplication Avoidance**: Checks and prevents duplication by not moving files that already exist in the target directory.
 - **Notifications**: Sends notifications to sales representatives via SNS to inform them of file movements.
 - **Logging**: Records operations and errors in a local log file and uploads this log to S3.
+- **Scheduled Execution**: Automatically runs the file management tasks at scheduled intervals throughout the day.
 
 ## Usage
 
@@ -27,3 +28,10 @@ This project automates the organization and management of files within an AWS S3
 - **`move_and_clean_s3_objects`**: Moves files within the S3 bucket into structured directories and cleans up any duplicates.
 - **`upload_log_to_s3`**: Uploads the local log file to S3.
 - **`create_sns_topic`, `get_sns_topic_arn`, `subscribe_email_to_topic`**: Manages SNS topics and subscribes emails for notifications.
+
+## Automated Scheduling
+
+To ensure that the system runs smoothly throughout the day without manual intervention, a scheduler is integrated into the system. It is set to execute the main function every 4 hours, which can be adjusted according to specific needs. This functionality is crucial for environments where regular updates are necessary.
+
+- **Schedule Setup**: Utilizes Python's `schedule` library to run the main script at defined intervals.
+- **Error Handling**: Includes robust error handling within the scheduling to ensure that any issues are logged and managed appropriately.
