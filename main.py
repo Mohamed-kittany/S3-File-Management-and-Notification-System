@@ -43,7 +43,7 @@ def main():
         log_and_print_error_message(f"Failed to check/create bucket: {message}. Exiting...")
         return  # Stop execution of the script if we failed to create/check for a s3 bucket.
 
-    success, message = upload_files_to_s3(BUCKET_NAME, CSV_LOCAL_DIRECTORY)
+    success, message = upload_files_to_s3(BUCKET_NAME, CSV_LOCAL_DIRECTORY, S3_BUCKET_SOURCE_PREFIX_DIR)
     if not success:
         log_and_print_error_message(f"Failed to upload files: {message}. Exiting...")
         return  # Stop execution of the script if uploading files to s3 has failed.

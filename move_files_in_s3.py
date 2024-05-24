@@ -68,7 +68,7 @@ def move_and_clean_s3_objects(bucket_name, source_prefix, sns_topic_arn):
 
         if not sales_rep_files:
             print("No files found to move or delete.")
-            return False, "No files were moved or deleted."
+            return True, "No files were moved or deleted."
 
     except ClientError as e:
         error_msg = f"An AWS client error occurred: {e}"
