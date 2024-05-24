@@ -5,7 +5,7 @@ from move_files_in_s3 import move_and_clean_s3_objects
 from s3_log_uploader import upload_log_to_s3
 from sns_manager import get_sns_topic_arn, subscribe_email_to_topic
 from utils import print_module_name, setup_logging, log_and_print_error_message
-
+from scheduler import setup_schedule
 
 # ### Constants ### I kept the constants in the main file for simplicity.
 CSV_LOCAL_DIRECTORY = './dct-sales-local'  # Local directory where CSV files are stored.
@@ -60,4 +60,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    setup_schedule(main)
