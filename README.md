@@ -2,6 +2,9 @@
 
 This project automates the organization and management of files within an AWS S3 bucket. It is designed to move files from the root of the S3 bucket into structured directories based on sales representative identifiers and notifies the respective sales representatives via AWS SNS when their files have been moved.
 
+![Screenshot_1](https://github.com/Mohamed-kittany/S3-File-Management-and-Notification-System/assets/161580792/517e7348-16f3-4d87-9fdc-2137295d2c6b)
+
+
 ## Features
 
 - **File Reorganization**: Moves files from the root directory of the S3 bucket to a structured directory format based on predefined identifiers (e.g., sales representative IDs).
